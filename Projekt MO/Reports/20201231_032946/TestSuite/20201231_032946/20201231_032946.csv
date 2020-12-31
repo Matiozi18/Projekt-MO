@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite,Chrome 87.0.4280.88,,,2020-12-31 03:29:51,2020-12-31 03:30:13,"21,953s",PASSED
+,,,,,,,
+Test Cases/TestCase1,Chrome 87.0.4280.88,,,2020-12-31 03:29:52,2020-12-31 03:30:13,"20,786s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-31 03:29:53,2020-12-31 03:29:57,"4,156s",PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-31 03:29:57,2020-12-31 03:29:59,"2,198s",PASSED
+"navigateToUrl(""http://www.grajcie.pl/rejestracja.php"")",Chrome 87.0.4280.88,,,2020-12-31 03:29:59,2020-12-31 03:30:00,"1,090s",PASSED
+"setText(findTestObject(""Grajcie/Login""), Login)",Chrome 87.0.4280.88,,,2020-12-31 03:30:00,2020-12-31 03:30:01,"0,873s",PASSED
+"setEncryptedText(findTestObject(""Grajcie/Haslo""), Haslo)",Chrome 87.0.4280.88,,,2020-12-31 03:30:01,2020-12-31 03:30:02,"0,499s",PASSED
+"Weryfikacja_el = getText(findTestObject(""Grajcie/Dane Konta""))",Chrome 87.0.4280.88,,,2020-12-31 03:30:02,2020-12-31 03:30:02,"0,346s",PASSED
+assert Weryfikacja == Weryfikacja_el,Chrome 87.0.4280.88,,,2020-12-31 03:30:02,2020-12-31 03:30:02,"0,002s",PASSED
+"setText(findTestObject(""Grajcie/Email""), Email)",Chrome 87.0.4280.88,,,2020-12-31 03:30:02,2020-12-31 03:30:03,"0,670s",PASSED
+"setText(findTestObject(""Grajcie/Imie""), Imie)",Chrome 87.0.4280.88,,,2020-12-31 03:30:03,2020-12-31 03:30:03,"0,771s",PASSED
+"setText(findTestObject(""Grajcie/Nazwisko""), Nazwisko)",Chrome 87.0.4280.88,,,2020-12-31 03:30:03,2020-12-31 03:30:04,"0,683s",PASSED
+"selectOptionByValue(findTestObject(""Grajcie/Plec""), ""mężczyzna"", false)",Chrome 87.0.4280.88,,,2020-12-31 03:30:04,2020-12-31 03:30:05,"0,693s",PASSED
+"setText(findTestObject(""Grajcie/Wiek""), Wiek)",Chrome 87.0.4280.88,,,2020-12-31 03:30:05,2020-12-31 03:30:06,"0,659s",PASSED
+"setText(findTestObject(""Grajcie/Miejscowosc""), Miejscowosc)",Chrome 87.0.4280.88,,,2020-12-31 03:30:06,2020-12-31 03:30:06,"0,658s",PASSED
+"scrollToElement(findTestObject(""Grajcie/Wojewodztwo""), 0)",Chrome 87.0.4280.88,,,2020-12-31 03:30:06,2020-12-31 03:30:07,"0,337s",PASSED
+"selectOptionByValue(findTestObject(""Grajcie/Wojewodztwo""), ""dolnośląskie"", false)",Chrome 87.0.4280.88,,,2020-12-31 03:30:07,2020-12-31 03:30:07,"0,650s",PASSED
+"click(findTestObject(""Grajcie/Subskrypcja""))",Chrome 87.0.4280.88,,,2020-12-31 03:30:07,2020-12-31 03:30:08,"0,349s",PASSED
+"click(findTestObject(""Grajcie/Rejestruj""))",Chrome 87.0.4280.88,,,2020-12-31 03:30:08,2020-12-31 03:30:08,"0,497s",PASSED

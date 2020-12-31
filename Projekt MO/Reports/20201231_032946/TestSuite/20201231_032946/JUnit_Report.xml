@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="21.953" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TestSuite" tests="1" failures="0" errors="0" time="21.953" skips="0" timestamp="2020-12-31 03:29:51" hostname="Mateo - 192.168.0.150" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mateo\\Katalon Studio\\Projekt MO\\Reports\\20201231_032946\\TestSuite\\20201231_032946"/>
+         <property name="logFiles" value="C:\\Users\\Mateo\\Katalon Studio\\Projekt MO\\Reports\\20201231_032946\\TestSuite\\20201231_032946\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mateo - 192.168.0.150"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.150"/>
+         <property name="sessionId" value="3215c814877a1db327d5e3f7390852f8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase1" time="20.786" classname="Test Cases/TestCase1" status="PASSED">
+         <system-out><![CDATA[2020-12-31 03:29:52 - [TEST_CASE][PASSED] - Test Cases/TestCase1: Test Cases/TestCase1
+
+2020-12-31 03:29:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-31 03:29:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-31 03:29:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-31 03:29:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-31 03:29:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-31 03:29:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-31 03:29:59 - [TEST_STEP][PASSED] - navigateToUrl("http://www.grajcie.pl/rejestracja.php"): Navigate to 'http://www.grajcie.pl/rejestracja.php' successfully
+
+2020-12-31 03:30:00 - [MESSAGE][PASSED] - Navigate to 'http://www.grajcie.pl/rejestracja.php' successfully
+
+2020-12-31 03:30:00 - [TEST_STEP][PASSED] - setText(findTestObject("Grajcie/Login"), Login): Text 'Tomeczek123' is set on object 'Object Repository/Grajcie/Login'
+
+2020-12-31 03:30:01 - [MESSAGE][PASSED] - Text 'Tomeczek123' is set on object 'Object Repository/Grajcie/Login'
+
+2020-12-31 03:30:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Grajcie/Haslo"), Haslo): Text ****** has been set on object 'Object Repository/Grajcie/Haslo'
+
+2020-12-31 03:30:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Grajcie/Haslo'
+
+2020-12-31 03:30:02 - [TEST_STEP][PASSED] - Weryfikacja_el = getText(findTestObject("Grajcie/Dane Konta")): Text of object 'Object Repository/Grajcie/Dane Konta' is: 'Dane konta:'
+
+2020-12-31 03:30:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Grajcie/Dane Konta' is: 'Dane konta:'
+
+2020-12-31 03:30:02 - [TEST_STEP][PASSED] - assert Weryfikacja == Weryfikacja_el: null
+
+2020-12-31 03:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Grajcie/Email"), Email): Text 'tom123@gmail.com' is set on object 'Object Repository/Grajcie/Email'
+
+2020-12-31 03:30:03 - [MESSAGE][PASSED] - Text 'tom123@gmail.com' is set on object 'Object Repository/Grajcie/Email'
+
+2020-12-31 03:30:03 - [TEST_STEP][PASSED] - setText(findTestObject("Grajcie/Imie"), Imie): Text 'Tomasz' is set on object 'Object Repository/Grajcie/Imie'
+
+2020-12-31 03:30:03 - [MESSAGE][PASSED] - Text 'Tomasz' is set on object 'Object Repository/Grajcie/Imie'
+
+2020-12-31 03:30:03 - [TEST_STEP][PASSED] - setText(findTestObject("Grajcie/Nazwisko"), Nazwisko): Text 'Kot' is set on object 'Object Repository/Grajcie/Nazwisko'
+
+2020-12-31 03:30:04 - [MESSAGE][PASSED] - Text 'Kot' is set on object 'Object Repository/Grajcie/Nazwisko'
+
+2020-12-31 03:30:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Grajcie/Plec"), "mężczyzna", false): All options with value 'mężczyzna' are selected in object 'Object Repository/Grajcie/Plec' 
+
+2020-12-31 03:30:05 - [MESSAGE][PASSED] - All options with value 'mężczyzna' are selected in object 'Object Repository/Grajcie/Plec' 
+
+2020-12-31 03:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Grajcie/Wiek"), Wiek): Text '30' is set on object 'Object Repository/Grajcie/Wiek'
+
+2020-12-31 03:30:06 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Grajcie/Wiek'
+
+2020-12-31 03:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Grajcie/Miejscowosc"), Miejscowosc): Text 'Wroclaw' is set on object 'Object Repository/Grajcie/Miejscowosc'
+
+2020-12-31 03:30:06 - [MESSAGE][PASSED] - Text 'Wroclaw' is set on object 'Object Repository/Grajcie/Miejscowosc'
+
+2020-12-31 03:30:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Grajcie/Wojewodztwo"), 0): Scroll to object 'Object Repository/Grajcie/Wojewodztwo' successfully
+
+2020-12-31 03:30:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-31 03:30:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Grajcie/Wojewodztwo' successfully
+
+2020-12-31 03:30:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Grajcie/Wojewodztwo"), "dolnośląskie", false): All options with value 'dolnośląskie' are selected in object 'Object Repository/Grajcie/Wojewodztwo' 
+
+2020-12-31 03:30:07 - [MESSAGE][PASSED] - All options with value 'dolnośląskie' are selected in object 'Object Repository/Grajcie/Wojewodztwo' 
+
+2020-12-31 03:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Grajcie/Subskrypcja")): Object: 'Object Repository/Grajcie/Subskrypcja' is clicked on
+
+2020-12-31 03:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Grajcie/Subskrypcja' is clicked on
+
+2020-12-31 03:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Grajcie/Rejestruj")): Object: 'Object Repository/Grajcie/Rejestruj' is clicked on
+
+2020-12-31 03:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Grajcie/Rejestruj' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-31 03:29:51 - [TEST_SUITE][INCOMPLETE] - TestSuite: null]]></system-out>
+      <system-err><![CDATA[2020-12-31 03:29:51 - [TEST_SUITE][INCOMPLETE] - TestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>
